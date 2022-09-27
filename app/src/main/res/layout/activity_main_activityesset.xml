@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityesset"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="206dp"
+        android:layout_height="33dp"
+        android:text=""
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/img_esset"
+        android:layout_width="205dp"
+        android:layout_height="227dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="91dp"
+         />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+
+      <TextView
+          android:id="@+id/tv_status"
+          android:layout_width="298dp"
+          android:layout_height="match_parent"
+          android:gravity="center"
+  >
+
+      </TextView>
+
+      <TextView
+          android:layout_width="105dp"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:text="الحالة "
+          android:textSize="25dp">
+
+      </TextView>
+
+
+
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="277dp"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:text=" ">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="63dp"
+            android:gravity="center"
+            android:text="الموقع "
+            android:textSize="25dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="211dp"
+            android:gravity="center"
+            android:text=" "
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="معلومات حول الباب "
+            android:textSize="15dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+</LinearLayout>
